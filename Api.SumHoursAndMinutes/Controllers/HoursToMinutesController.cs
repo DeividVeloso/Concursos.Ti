@@ -8,17 +8,15 @@ using System.Web.Http;
 
 namespace Api.SumHoursAndMinutes.Controllers
 {
-    public class MinutesToHoursController : ApiController
+    public class HoursToMinutesController : ApiController
     {
-        //
-
         // POST: api/MinutesToHours
         [HttpPost]
-        public string MinutesToHours(Time request)
+        public decimal HoursToMinutes(Time request)
         {
             Time objTime = new Time(request.Hour, request.Minutes);
 
-            return objTime.MinutesToHours();
+            return objTime.HoursToMinutes();
         }
     }
 }
