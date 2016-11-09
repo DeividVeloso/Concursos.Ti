@@ -32,11 +32,25 @@ namespace Api.SumHoursAndMinutes.Models
 
         public decimal HoursToMinutes()
         {
-            decimal horaEmMinutos = (this.Hour * 60);
-            decimal minutosReais = (this.Minutes / 60) * 60;
 
-            decimal totalMinutos = horaEmMinutos + minutosReais;
-            return totalMinutos;
+
+            DateTime time;
+            string timeStr = string.Concat(this.Hour,":",this.Minutes);
+
+            if (DateTime.TryParse(timeStr, out time))
+            {
+                //Transfroma hora em minutos
+                decimal horaEmMinutos = (this.Hour * 60);
+
+                //Minutos e transfrma em horas ex 15minutos é igual a 0.25 horas base 100// 0.25 * 60 é igual a 15 minutos
+                //decimal minutosReais = (this.Minutes / 60) * 60;
+
+                decimal totalMinutos = horaEmMinutos + this.Minutes;
+
+                return totalMinutos;
+            }
+
+            return 0;
         }
     }
 }
