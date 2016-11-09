@@ -35,7 +35,7 @@ namespace Api.SumHoursAndMinutes.Models
 
 
             DateTime time;
-            string timeStr = string.Concat(this.Hour,":",this.Minutes);
+            string timeStr = string.Concat(0,":",this.Minutes);
 
             if (DateTime.TryParse(timeStr, out time))
             {
