@@ -16,3 +16,24 @@ textarea {
     max-width: 280px;
 }
 
+/*.hora .form-group input {
+    width: 80%;
+    float: left;
+}*/
+
+.doisPontos .form-group span{
+    display: inline;
+    font-size: 30px;
+    line-height: 75px;
+    font-weight: bold;
+    padding-top: 23px;
+}
+
+/*.form-group span {
+    float: left;
+    display: inline-block;
+    margin: 0px;
+    padding-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+}*/

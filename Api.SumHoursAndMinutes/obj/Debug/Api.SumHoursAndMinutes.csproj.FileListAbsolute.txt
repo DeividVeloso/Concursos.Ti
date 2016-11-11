@@ -94,3 +94,6 @@ C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\bin\An
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\obj\Debug\Api.SumHoursAndMinutes.csprojResolveAssemblyReference.cache
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\obj\Debug\Api.SumHoursAndMinutes.dll
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\obj\Debug\Api.SumHoursAndMinutes.pdb
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Api.SumHoursAndMinutes\bin\System.Web.Cors.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Api.SumHoursAndMinutes\bin\System.Web.Http.Cors.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Api.SumHoursAndMinutes\bin\System.Web.Http.Cors.xml
