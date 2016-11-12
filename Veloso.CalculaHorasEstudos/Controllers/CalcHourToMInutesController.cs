@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Veloso.CalculaHorasEstudos.Controllers
 {
-    public class CalculaHorasController : Controller
+    public class CalcHourToMinutesController : Controller
     {
         // GET: CalculaHoras
         public ActionResult Index()

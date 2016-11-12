@@ -3,23 +3,15 @@
 }
 
 <h2>Index</h2>
+@section scripts{
+    <!--Ainda nao criamos este script, criaremos na proxima etapa -->
+    <script src="~/Scripts/MinutesToHours/MinutesToHours.js"></script>
+}
 
 
 <div class="container">
-    <form method="post">
+    <form id-"formMinutesToHour" method="post">
         <div class="row">
-            <div class="horas col-xs-2 col-md-2">
-                <div class="form-group">
-                    <label>Horas</label>
-                    <input class="form-control" type="text" name="Hour" value="" placeholder="00" />
-
-                </div>
-            </div>
-            <div class="doisPontos col-xs-2 col-md-1">
-                <div class="form-group">
-                    <span> : </span>
-                </div>
-            </div>
             <div class="minutos col-xs-2 col-md-2">
                 <div class="form-group">
                     <label>Minutos</label>
@@ -35,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <input type="submit" class="btn btn-success" />
+                <input type="submit" class="btn btn-success"/>
             </div>
         </div>
     </form>

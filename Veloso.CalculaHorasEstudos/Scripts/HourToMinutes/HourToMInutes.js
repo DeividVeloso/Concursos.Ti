@@ -1,9 +1,8 @@
 ﻿/// <reference path="jquery-3.1.1.js" />
 /// <reference path="jquery-3.1.1.intellisense.js" />
 (function () {
- 
 
-    $('form').submit(postHoursToMinute);
+    $('formHourToMinutes').submit(postHoursToMinute);
 
     function postHoursToMinute() {
         let request = {
@@ -12,15 +11,18 @@
         };
 
         $.ajax({
-            url: 'http://localhost:59509/api/MinutesToHours',
+            url: 'http://localhost:59509/api/HoursToMinutes',
             type: 'POST',
             data: JSON.stringify(request),
             contentType: "application/json",
-            success: function (resposta) { console.log(resposta) },
-            error: function (resposta) { console.log("erro") }
+            success: function (resposta) {
+                $('input[name="Resultado"]').val(resposta)
+            },
+            error: function (resposta) {
+                console.log("erro")
+            }
         });
 
         return false;
     };
-
 })();

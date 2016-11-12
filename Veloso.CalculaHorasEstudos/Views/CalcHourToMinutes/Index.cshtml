@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@section scripts{
+    <!--Ainda nao criamos este script, criaremos na proxima etapa -->
+   
+    <script src="~/Scripts/HourToMinutes/HourToMInutes.js"></script>
+}
+
+<div class="container">
+    <form id="formHourToMinutes" method="post">
+        <div class="row">
+            <div class="horas col-xs-2 col-md-2">
+                <div class="form-group">
+                    <label>Horas</label>
+                    <input class="form-control" type="text" name="Hour" value="" placeholder="00" />
+
+                </div>
+            </div>
+            <div class="doisPontos col-xs-2 col-md-1">
+                <div class="form-group">
+                    <span> : </span>
+                </div>
+            </div>
+            <div class="minutos col-xs-2 col-md-2">
+                <div class="form-group">
+                    <label>Minutos</label>
+                    <input class="form-control" type="text" name="Minutes" value="" placeholder="59" />
+                </div>
+            </div>
+            <div class="col-xs-2 col-md-5">
+                <div class="form-group">
+                    <label>Resultado</label>
+                    <input class="form-control" type="text" name="Resultado" value="" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <input type="submit" class="btn btn-success" />
+            </div>
+        </div>
+    </form>
+</div>
+

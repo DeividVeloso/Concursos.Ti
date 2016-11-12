@@ -16,7 +16,7 @@ namespace Veloso.CalculaHorasEstudos
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "CalculaHoras", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "CalcHourToMinutes", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
