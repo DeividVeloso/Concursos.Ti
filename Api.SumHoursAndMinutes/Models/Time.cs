@@ -25,7 +25,7 @@ namespace Api.SumHoursAndMinutes.Models
             decimal restoMinutes = totalHoras - Math.Truncate(totalHoras);
 
             //Multiplica os minutos em hora 
-            decimal MinutosEmHoras = (restoMinutes * 60) / 100;
+            decimal MinutosEmHoras = (Math.Round(restoMinutes,1,MidpointRounding.AwayFromZero) * 60) / 100;
 
             return string.Format("{0}:{1}", Math.Truncate(totalHoras), MinutosEmHoras.ToString().Replace("0,", "").PadRight(2, '0'));
         }
