@@ -100,3 +100,5 @@ C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Api.SumHoursAndMinutes\bin\System.W
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\bin\System.Web.Cors.dll
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\bin\System.Web.Http.Cors.dll
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Api.SumHoursAndMinutes\bin\System.Web.Http.Cors.xml
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Api.SumHoursAndMinutes\bin\Veloso.CalculaHorasEstudos.Domain.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Api.SumHoursAndMinutes\bin\Veloso.CalculaHorasEstudos.Domain.pdb

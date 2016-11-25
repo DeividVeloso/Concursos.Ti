@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Api.SumHoursAndMinutes.Models
+namespace Veloso.CalculaHorasEstudos.Domain
 {
     public class Time
     {
@@ -25,7 +26,7 @@ namespace Api.SumHoursAndMinutes.Models
             decimal restoMinutes = totalHoras - Math.Truncate(totalHoras);
 
             //Multiplica os minutos em hora 
-            decimal MinutosEmHoras = (Math.Round(restoMinutes,1,MidpointRounding.AwayFromZero) * 60) / 100;
+            decimal MinutosEmHoras = (restoMinutes * 60) / 100;
 
             return string.Format("{0}:{1}", Math.Truncate(totalHoras), MinutosEmHoras.ToString().Replace("0,", "").PadRight(2, '0'));
         }
@@ -33,9 +34,8 @@ namespace Api.SumHoursAndMinutes.Models
         public decimal HoursToMinutes()
         {
 
-
             DateTime time;
-            string timeStr = string.Concat(0,":",this.Minutes);
+            string timeStr = string.Concat(0, ":", this.Minutes);
 
             if (DateTime.TryParse(timeStr, out time))
             {

@@ -34,3 +34,13 @@ C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Veloso.CalculaHorasEstudos\bi
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Veloso.CalculaHorasEstudos\obj\Debug\Veloso.CalculaHorasEstudos.csprojResolveAssemblyReference.cache
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Veloso.CalculaHorasEstudos\obj\Debug\Veloso.CalculaHorasEstudos.dll
 C:\Users\deivi\Desktop\Estudos\Veloso.Ti.Concursos\Veloso.CalculaHorasEstudos\obj\Debug\Veloso.CalculaHorasEstudos.pdb
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\Newtonsoft.Json.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Net.Http.Formatting.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Web.Cors.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Web.Http.Cors.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Web.Http.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\Newtonsoft.Json.xml
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Net.Http.Formatting.xml
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Web.Http.xml
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos\bin\System.Web.Http.Cors.xml

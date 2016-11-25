@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "Presen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.CalculaHorasEstudos", "Veloso.CalculaHorasEstudos\Veloso.CalculaHorasEstudos.csproj", "{7FC3464E-978E-4BF1-A845-843111503FB0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C7A14C08-1B9B-4CBB-AAC0-C96A42787A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.CalculaHorasEstudos.Domain", "Veloso.CalculaHorasEstudos.Domain\Veloso.CalculaHorasEstudos.Domain.csproj", "{FCD0BD99-904F-4681-92EF-363F1D769CB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{7FC3464E-978E-4BF1-A845-843111503FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC3464E-978E-4BF1-A845-843111503FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC3464E-978E-4BF1-A845-843111503FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD0BD99-904F-4681-92EF-363F1D769CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD0BD99-904F-4681-92EF-363F1D769CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD0BD99-904F-4681-92EF-363F1D769CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD0BD99-904F-4681-92EF-363F1D769CB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9B54B586-9217-4EF1-AA53-8455784E0D8E} = {7E77C3C7-7B36-4265-B367-9BEB374A8790}
 		{7FC3464E-978E-4BF1-A845-843111503FB0} = {5340499B-DE81-4137-BDFB-AAA5266DBEBF}
+		{FCD0BD99-904F-4681-92EF-363F1D769CB0} = {C7A14C08-1B9B-4CBB-AAC0-C96A42787A9F}
 	EndGlobalSection
 EndGlobal

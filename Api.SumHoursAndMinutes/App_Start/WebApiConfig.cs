@@ -20,7 +20,7 @@ namespace Api.SumHoursAndMinutes
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            var cors = new System.Web.Http.Cors.EnableCorsAttribute("*", "*", "*");
+            var cors = new System.Web.Http.Cors.EnableCorsAttribute("http://negociodireto.com", "*", "*");
 
             config.EnableCors(cors);
         }

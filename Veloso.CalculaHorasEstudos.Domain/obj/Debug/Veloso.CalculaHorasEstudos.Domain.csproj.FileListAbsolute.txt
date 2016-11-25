@@ -1,0 +1,4 @@
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos.Domain\bin\Debug\Veloso.CalculaHorasEstudos.Domain.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos.Domain\bin\Debug\Veloso.CalculaHorasEstudos.Domain.pdb
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos.Domain\obj\Debug\Veloso.CalculaHorasEstudos.Domain.dll
+C:\Users\dveloso\Desktop\Estudo\Concursos.Ti\Veloso.CalculaHorasEstudos.Domain\obj\Debug\Veloso.CalculaHorasEstudos.Domain.pdb
