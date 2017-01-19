@@ -13,7 +13,7 @@ namespace Api.SumHoursAndMinutes.Controllers
     {
         // POST: api/MinutesToHours
         [HttpPost]
-        [EnableCors(origins: "http://www.negociodireto.com", headers: "*", methods: "*")]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
         public decimal HoursToMinutes(Time request)
         {
             Time objTime = new Time(request.Hour, request.Minutes);
